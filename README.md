@@ -1,17 +1,35 @@
 # LaunchVector 🚀
 
-A Python-based rocket trajectory calculator.
+LaunchVector is a Python-based rocket trajectory calculator that simulates projectile motion on different planets.
 
 ## Features
-- Maximum height calculation
-- Time of flight calculation
-- Horizontal range calculation
-- Earth, Mars and Moon support
+
+- Calculate Maximum Height
+- Calculate Time of Flight
+- Calculate Horizontal Range
+- Supports Earth, Mars, and Moon
 - Input validation
+- Uses real projectile motion physics
 
-## Requirements
-Python 3.x
+## Technologies Used
 
-## Run
+- Python
+- Math Library
 
+## Supported Planets
+
+| Planet | Gravity (m/s²) |
+|----------|----------|
+| Earth | 9.81 |
+| Mars | 3.71 |
+| Moon | 1.62 |
+
+## How to Run
+
+```bash
 python LaunchVector.py
+```
+
+## Author
+
+Agrodwip Das
